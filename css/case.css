@@ -1,0 +1,116 @@
+html,body{width: 100%;height: 100%;min-height: 100%;-webkit-user-select: none;}
+.clear:after{content:"";display: block;clear: both;}
+#wrap{width: 100%;height: 100%;}
+/*头部菜单*/
+#header{position:absolute;z-index: 100;width: 100%;height: 12%;padding-bottom: 30px;}
+#nav{width:112%;padding-top: 45px;margin: 0 auto;position: fixed;text-align: center;}
+#wp-logo{float: left;position: fixed;top: 30px;left: 6%;}
+#wp-logo img{float: left;}
+#wp-logo span{font-size: 12px;color: white;position: fixed;top: 55px;margin-left:20px;}
+#header-list{width:800px;margin: 0 auto;}
+#header-list li{float: left;margin-left: 30px;cursor: pointer;}
+#header-list li a:hover{background:rgba(255,140,0,0.4);border-radius: 20px;color: #00FFFF;}
+#header-list li a{color: white;font-size: 20px; text-decoration: none;padding:5px 15px;}
+#contact{width: 250px;height: 50px;position: fixed;right:100px;top: 40px;}
+#header-phone-image{width:32px;height:30px;background:url(../img/wp-xuebi.png) no-repeat;float: left;margin-right: 10px;}
+#header-phone{font-size: 27px;color:#00FFFF;width: 100%;height: 50px;letter-spacing: 2px;font-weight: bolder;cursor:pointer}
+/*响应式导航*/
+#responsive_nav{position: fixed;right: 0px;top: 35px;}
+#responsive_logo1{width: 35px;height: 30px;background: url(../img/nav_logo2.png) no-repeat center;background-size: cover;cursor: pointer;position: absolute;display: none;}
+#responsive_nav_content{width:150px;background:rgba(0,0,0,0.5);position: absolute;top: 0px;right: 0;display: none;}
+#responsive_nav_logo1{width: 50px;height: 50px;background: url(../img/nav_logo.jpg) no-repeat center;background-size: cover;border-radius: 50%;margin-top: 30px;margin-left: 50px;}
+#responsive_nav_content ul{margin-top: 80px;}
+#responsive_nav_content ul li{width: 100%;margin-top: 15px;}
+#responsive_nav_content ul li a{font-size: 17px;color: white;text-decoration: none;cursor: pointer;margin-left: 60px;}
+#responsive_nav_content ul li a:hover{color: #00BFFF;}
+#responsive_footer{width: 135px;height: 65px;background: url(../img/juyao_logo.png) no-repeat;background-size: 100% 100%;margin-top: 150px;}
+#responsive_footer1{font-size: 22px;color: white;text-align: center;margin-top: 20px;}
+
+
+
+
+
+/*case内容*/
+#zhuli_case{width: 100%;height: 100%;background: url(../img/case_bg.jpg) no-repeat center ;background-size: cover;position:relative;-webkit-animation: bgScale 1.5s linear 1s ;}
+#zhuli_case #case_content{width: 80%;height: 648px;border: 1px solid white;position: absolute;left: 0;top: 50px;right: 0;bottom: 0;margin: auto;}
+#case_wrap{width: 100%;height: 100%;overflow: hidden;}
+#case_wrap #d1{width: 259px;height: 216px;margin: 0 auto;position: relative;background: url(../img/case_bg.png) no-repeat center top;background-size: 100% 100%;}
+#case_wrap #d1 img:nth-child(1){width:100%;height: 100%;opacity: 0;}
+#case_wrap #d1 img:nth-child(2){width:135px;height:37px;position: absolute;top: 60%;left: 25%;}
+#case_wrap #d2{width: 518px;height: 216px;margin:0 auto;position: relative;}
+#d2_img1,#d2_img2,#d3_img,#d3_img1,#d3_img2{width: 259px;height: 216px;background: url(../img/case_bg.png) no-repeat center top;background-size: 100% 100%;float: left;position: relative;z-index: 30;}
+#case_wrap #d2_img1 img:nth-child(1){width: 259px;height: 216px;float: left;position: absolute;z-index: 30;opacity: 0;}
+#case_wrap #d2_img1 img:nth-child(2){width:135px;height: 58px; position: absolute;top: 53%;left: 21%;z-index: 30;}
+#case_wrap #d2 #d2_pic{width: 259px;height: 216px;position: absolute;z-index:1;left: 129px;top: 0;}
+#case_wrap #d2_img2 img:nth-child(1){width: 259px;height: 216px;float: left;position: absolute;z-index: 30;top: 0;opacity: 0;}
+#case_wrap #d2_img2 img:nth-child(2){width:135px;height: 50px; position: absolute;top: 53%;left: 27%;z-index: 30;}
+#case_wrap #d3{width:777px;height:216px;margin: 0 auto;position: relative;}
+#case_wrap #d3 #d3_img img{width:259px;height: 216px;float: left;position: absolute;z-index: 30;opacity: 0;}
+#case_wrap #d3 #d3_pic{width:259px;height: 216px;float: left;position: absolute;left: 129px;}
+#case_wrap #d3 #d3_img1 img{width:259px;height: 216px;float: left;position: absolute;z-index: 30;opacity: 0;}
+#case_wrap #d3 #d3_pic1{width:259px;height: 216px;float: left;position: absolute;left: 388px;}
+#case_wrap #d3 #d3_img2 img{width:259px;height: 216px;float: left;position: absolute;z-index: 30;opacity: 0;}
+#case_slide img{position: absolute;left: 43%;z-index: 300;top: 50%;cursor: pointer;}
+#case_list{width: 90%;height: 548px;overflow-y: scroll;position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;display: none;}
+#case_list_show{width: 100%;height: 100%;}
+#case_list_show li{width: 30%;height: 50%;float: left;margin: 1%;text-align: center;cursor: pointer;}
+.shade_text{font-size: 14px;color: white;position: absolute;top: 44%;left: 30%;display: none;z-index: 300;}
+#case_close{width: 41px;height: 41px;background: url(../img/case_close.png) no-repeat center;position: absolute;right:1%;z-index: 999;top:1%;cursor: pointer;display: none;}
+
+
+
+
+
+
+
+
+
+/*关闭按钮旋转*/
+@-webkit-keyframes closeA{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(120deg);}
+}
+@-webkit-keyframes closeB{
+	from{transform: rotate(120deg);}
+	to{transform: rotate(0deg);}
+}
+
+
+
+
+
+/*开始动画*/
+@-webkit-keyframes bgScale{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.04);}
+	100%{transform: scale(1);}
+}
+
+
+@media  screen and (min-width:1250px) and (max-width: 1350px) {
+	#logo_text{display: none;}
+	#nav{width: 92%;}
+	#case_list_show li {width: 30%;height: 35%;}
+	.shade_text{left: 25%;}
+}
+@media  screen  and (min-width:690px) and (max-width: 1250px){
+	#wp-logo #logo_text{display: block;margin-left: 130px;}
+	#nav{display: none;}
+	#contact{display: none;}
+	#responsive_logo1{display: block;position:absolute;right: 40px;top: 35px;}
+	#case_list_show li {width: 47%;height: 35%;}
+	.shade_text{left: 32%;}
+}
+@media screen and (min-width: 850px) and (max-width: 1050px) {
+		.shade_text{left: 30%;}
+}
+@media screen and (min-width: 690px) and (max-width: 850px) {
+		.shade_text{left: 22%;}
+}
+
+@media  screen and (max-width: 690px){
+	.list_more,.list_more1{left: 35%;width: 50px;height: 50px;line-height: 50px;top: 60%;}
+}
+
+
+
